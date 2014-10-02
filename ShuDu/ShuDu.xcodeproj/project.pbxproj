@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A55BD51198CE2CD0084E1AD /* 数独生成算法.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6A55BD50198CE2CD0084E1AD /* 数独生成算法.rtf */; };
+		6A98EA83198762E100F3F6DE /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A98EA82198762E100F3F6DE /* MyAlertView.m */; };
+		6AFB63B6198613050037D412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63B5198613050037D412 /* Foundation.framework */; };
+		6AFB63B8198613050037D412 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63B7198613050037D412 /* CoreGraphics.framework */; };
+		6AFB63BA198613050037D412 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63B9198613050037D412 /* UIKit.framework */; };
+		6AFB63C0198613050037D412 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB63BE198613050037D412 /* InfoPlist.strings */; };
+		6AFB63C2198613050037D412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB63C1198613050037D412 /* main.m */; };
+		6AFB63C6198613050037D412 /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB63C5198613050037D412 /* ZYAppDelegate.m */; };
+		6AFB63C8198613050037D412 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB63C7198613050037D412 /* Images.xcassets */; };
+		6AFB63CF198613050037D412 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63CE198613050037D412 /* XCTest.framework */; };
+		6AFB63D0198613050037D412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63B5198613050037D412 /* Foundation.framework */; };
+		6AFB63D1198613050037D412 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFB63B9198613050037D412 /* UIKit.framework */; };
+		6AFB63D9198613050037D412 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AFB63D7198613050037D412 /* InfoPlist.strings */; };
+		6AFB63DB198613050037D412 /* ShuDuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB63DA198613050037D412 /* ShuDuTests.m */; };
+		6AFB63E619861C8F0037D412 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB63E519861C8F0037D412 /* MyButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AFB63D2198613050037D412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AFB63AA198613050037D412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AFB63B1198613050037D412;
+			remoteInfo = ShuDu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A55BD50198CE2CD0084E1AD /* 数独生成算法.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "数独生成算法.rtf"; sourceTree = "<group>"; };
+		6A98EA81198762E100F3F6DE /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		6A98EA82198762E100F3F6DE /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
+		6AFB63B2198613050037D412 /* ShuDu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuDu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB63B5198613050037D412 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AFB63B7198613050037D412 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AFB63B9198613050037D412 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AFB63BD198613050037D412 /* ShuDu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuDu-Info.plist"; sourceTree = "<group>"; };
+		6AFB63BF198613050037D412 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AFB63C1198613050037D412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AFB63C3198613050037D412 /* ShuDu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShuDu-Prefix.pch"; sourceTree = "<group>"; };
+		6AFB63C4198613050037D412 /* ZYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		6AFB63C5198613050037D412 /* ZYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
+		6AFB63C7198613050037D412 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AFB63CD198613050037D412 /* ShuDuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuDuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFB63CE198613050037D412 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AFB63D6198613050037D412 /* ShuDuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuDuTests-Info.plist"; sourceTree = "<group>"; };
+		6AFB63D8198613050037D412 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AFB63DA198613050037D412 /* ShuDuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuDuTests.m; sourceTree = "<group>"; };
+		6AFB63E419861C8F0037D412 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		6AFB63E519861C8F0037D412 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AFB63AF198613050037D412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63B8198613050037D412 /* CoreGraphics.framework in Frameworks */,
+				6AFB63BA198613050037D412 /* UIKit.framework in Frameworks */,
+				6AFB63B6198613050037D412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB63CA198613050037D412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63CF198613050037D412 /* XCTest.framework in Frameworks */,
+				6AFB63D1198613050037D412 /* UIKit.framework in Frameworks */,
+				6AFB63D0198613050037D412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AFB63A9198613050037D412 = {
+			isa = PBXGroup;
+			children = (
+				6AFB63BB198613050037D412 /* ShuDu */,
+				6AFB63D4198613050037D412 /* ShuDuTests */,
+				6AFB63B4198613050037D412 /* Frameworks */,
+				6AFB63B3198613050037D412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AFB63B3198613050037D412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB63B2198613050037D412 /* ShuDu.app */,
+				6AFB63CD198613050037D412 /* ShuDuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AFB63B4198613050037D412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB63B5198613050037D412 /* Foundation.framework */,
+				6AFB63B7198613050037D412 /* CoreGraphics.framework */,
+				6AFB63B9198613050037D412 /* UIKit.framework */,
+				6AFB63CE198613050037D412 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AFB63BB198613050037D412 /* ShuDu */ = {
+			isa = PBXGroup;
+			children = (
+				6A55BD50198CE2CD0084E1AD /* 数独生成算法.rtf */,
+				6AFB63C4198613050037D412 /* ZYAppDelegate.h */,
+				6AFB63C5198613050037D412 /* ZYAppDelegate.m */,
+				6AFB63E419861C8F0037D412 /* MyButton.h */,
+				6AFB63E519861C8F0037D412 /* MyButton.m */,
+				6A98EA81198762E100F3F6DE /* MyAlertView.h */,
+				6A98EA82198762E100F3F6DE /* MyAlertView.m */,
+				6AFB63C7198613050037D412 /* Images.xcassets */,
+				6AFB63BC198613050037D412 /* Supporting Files */,
+			);
+			path = ShuDu;
+			sourceTree = "<group>";
+		};
+		6AFB63BC198613050037D412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB63BD198613050037D412 /* ShuDu-Info.plist */,
+				6AFB63BE198613050037D412 /* InfoPlist.strings */,
+				6AFB63C1198613050037D412 /* main.m */,
+				6AFB63C3198613050037D412 /* ShuDu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AFB63D4198613050037D412 /* ShuDuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB63DA198613050037D412 /* ShuDuTests.m */,
+				6AFB63D5198613050037D412 /* Supporting Files */,
+			);
+			path = ShuDuTests;
+			sourceTree = "<group>";
+		};
+		6AFB63D5198613050037D412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AFB63D6198613050037D412 /* ShuDuTests-Info.plist */,
+				6AFB63D7198613050037D412 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AFB63B1198613050037D412 /* ShuDu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFB63DE198613050037D412 /* Build configuration list for PBXNativeTarget "ShuDu" */;
+			buildPhases = (
+				6AFB63AE198613050037D412 /* Sources */,
+				6AFB63AF198613050037D412 /* Frameworks */,
+				6AFB63B0198613050037D412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuDu;
+			productName = ShuDu;
+			productReference = 6AFB63B2198613050037D412 /* ShuDu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AFB63CC198613050037D412 /* ShuDuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFB63E1198613050037D412 /* Build configuration list for PBXNativeTarget "ShuDuTests" */;
+			buildPhases = (
+				6AFB63C9198613050037D412 /* Sources */,
+				6AFB63CA198613050037D412 /* Frameworks */,
+				6AFB63CB198613050037D412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AFB63D3198613050037D412 /* PBXTargetDependency */,
+			);
+			name = ShuDuTests;
+			productName = ShuDuTests;
+			productReference = 6AFB63CD198613050037D412 /* ShuDuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AFB63AA198613050037D412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhiyou;
+				TargetAttributes = {
+					6AFB63CC198613050037D412 = {
+						TestTargetID = 6AFB63B1198613050037D412;
+					};
+				};
+			};
+			buildConfigurationList = 6AFB63AD198613050037D412 /* Build configuration list for PBXProject "ShuDu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AFB63A9198613050037D412;
+			productRefGroup = 6AFB63B3198613050037D412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AFB63B1198613050037D412 /* ShuDu */,
+				6AFB63CC198613050037D412 /* ShuDuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AFB63B0198613050037D412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63C0198613050037D412 /* InfoPlist.strings in Resources */,
+				6A55BD51198CE2CD0084E1AD /* 数独生成算法.rtf in Resources */,
+				6AFB63C8198613050037D412 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB63CB198613050037D412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63D9198613050037D412 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AFB63AE198613050037D412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63E619861C8F0037D412 /* MyButton.m in Sources */,
+				6A98EA83198762E100F3F6DE /* MyAlertView.m in Sources */,
+				6AFB63C2198613050037D412 /* main.m in Sources */,
+				6AFB63C6198613050037D412 /* ZYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFB63C9198613050037D412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB63DB198613050037D412 /* ShuDuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AFB63D3198613050037D412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AFB63B1198613050037D412 /* ShuDu */;
+			targetProxy = 6AFB63D2198613050037D412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AFB63BE198613050037D412 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AFB63BF198613050037D412 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AFB63D7198613050037D412 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AFB63D8198613050037D412 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AFB63DC198613050037D412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AFB63DD198613050037D412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AFB63DF198613050037D412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuDu/ShuDu-Prefix.pch";
+				INFOPLIST_FILE = "ShuDu/ShuDu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AFB63E0198613050037D412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuDu/ShuDu-Prefix.pch";
+				INFOPLIST_FILE = "ShuDu/ShuDu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AFB63E2198613050037D412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuDu.app/ShuDu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuDu/ShuDu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShuDuTests/ShuDuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AFB63E3198613050037D412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuDu.app/ShuDu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuDu/ShuDu-Prefix.pch";
+				INFOPLIST_FILE = "ShuDuTests/ShuDuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AFB63AD198613050037D412 /* Build configuration list for PBXProject "ShuDu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB63DC198613050037D412 /* Debug */,
+				6AFB63DD198613050037D412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFB63DE198613050037D412 /* Build configuration list for PBXNativeTarget "ShuDu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB63DF198613050037D412 /* Debug */,
+				6AFB63E0198613050037D412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFB63E1198613050037D412 /* Build configuration list for PBXNativeTarget "ShuDuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFB63E2198613050037D412 /* Debug */,
+				6AFB63E3198613050037D412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AFB63AA198613050037D412 /* Project object */;
+}
